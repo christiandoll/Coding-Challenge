@@ -1,0 +1,46 @@
+This project serves to answer the Coding Challenge, as presented to me by Akil Franklin.
+
+********************
+INTRODUCTION:
+As a SQL Server DBA who focuses on production support, I focus more on Build and Run tasks for existing systems, as opposed to
+the development work of new apps or software. As a result, I have no background in writing code, nor am I familiar with C, Java, etc.
+Hence, there was no reference point for me, to build an app or a program, that can read the code that was presented to me in the Challenge.
+So, I determined for myself, that I would have to learn about the code (written in JSON) and find a way to solve the problem in a short time
+frame.
+
+WHAT I HAVE LEARNED:
+I have learned that JSON (JavaScript Object Notation) is a subset of the JavaScript Programming Language, and is easy for humans to read
+and write, but also easy for machines to parse and generate (source: https://www.json.org).
+
+Given that I have a background in SQL Server, my first inclination was to research, and find out, if Transact-SQL has a way of reading
+JSON via a query, and then return the data in a resultset.
+
+And, to my delight, the answer was: yes, you can!
+
+My research led me to Microsoft, who claims that there are many ways for SQL Server to analyze and process JSON (source: https://docs.microsoft.com/en-us/sql/relational-databases/json/json-data-sql-server).
+One perfect example, is that one can analyse JSON data, with a standard T-SQL query.
+
+So, given the code provided, we could write a query that looks for the requested integers that have a label attached to them, and then 
+add those values and deliver the sum total.
+
+THE ANSWER:
+Although I do have years of experience in SQL Server. my work has ben focused, so far, on systems support, as opposed to development work,
+and so I do not yet have a great deal of experience with writing complex T-SQL code. So, I was not able to come up with workable code that 
+provided the answer to the challenge.
+
+However, given that JSON is human-readable, I was able to read through the code, and determine the answer.
+
+There were five "items" that had a label next them, and they were:
+
+0
+46
+70
+85
+93
+
+So, adding these integers, I was able to come up with the sum, which is 294.
+
+CLOSING:
+In closing, I would like thank Akil and the UTIMCO team, for presenting me with this challenge; I was able to begin learning about
+Java for the first time, and learned that T-SQL will be able to read and parse JSON strings.
+********************
